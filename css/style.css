@@ -55,11 +55,14 @@ header p{
 nav a{
   color: black;
   font-weight: bold;
-
+  text-decoration: none;
 }
 /*Req 2*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
+nav a:hover, nav a:focus{
+  text-decoration: underline;
+}
 
 /*Req 3a*/
 .skip a{
