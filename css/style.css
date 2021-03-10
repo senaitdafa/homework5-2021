@@ -185,6 +185,10 @@ header{
   /*Req 11*/
   .container{
     /*Your code here:*/
+    display:grid;
+    grid-column: 50px, auto, 500px, auto, 50px;
+    grid-row: 400px, 425px, 425px, 400px;
+
   }
 
   /*Req 12*/
