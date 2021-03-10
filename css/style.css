@@ -120,37 +120,42 @@ header{
 .about, .method, .client, .contacts{
   /*Your Code Here*/
   grid-column: 2/span 2;
-  grid-row: 1/span 1 ;
 }
 
 /*Req 8a, 8b, and 8c*/
 .about-image, .method-image, .client-image, .contact-image{
   /*Your Code Here*/
+  grid-column: 1/span end;
+  max-height: 650px;
+  overflow:hidden;
 
 }
 
 /*Req 7b & 8d*/
 .about, .about-image{
    /*Your Code Here*/
+   grid-row: 1/span 1 ;
 
 }
 
 /*Req 7b & 8d*/
 .method, .method-image{
+  grid-row: 1/span 1 ;
    /*Your Code Here*/
 
 }
 
 /*Req 7b & 8d*/
 .client, .client-image{
+  grid-row: 1/span 1 ;
     /*Your Code Here*/
 
 }
 
 /*Req 7b & 8d*/
 .contacts, .contact-image{
+  grid-row: 1/span 1 ;
     /*Your Code Here*/
-
 }
 
 /*Req 9*/
@@ -159,6 +164,7 @@ header{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
+  place-items: center;
 
 }
 
