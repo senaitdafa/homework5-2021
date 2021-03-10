@@ -73,7 +73,7 @@ nav a:hover, nav a:focus{
   transition: top 1s ease-out;
   z-index: 1;
   position:absolute;
-  top: 50px
+  bottom: 50px
   /*Your code here*/
 }
 /*Req 3b*/
