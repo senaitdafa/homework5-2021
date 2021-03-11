@@ -109,7 +109,7 @@ header{
     
   /*Req 6b*/
   /*Set background-image to header.jpg */
-  background-image: url("/images/header.jpg");
+  background-image: url("images/header.jpg");
  
 
 }
