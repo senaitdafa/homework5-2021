@@ -100,7 +100,8 @@ header{
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
-  height: 400px;                /* Parallax effect */
+  color: white;
+  /*height: 400px;  */              /* Parallax effect */
     
   /*Req 6a*/
   /*Set margin */
@@ -109,7 +110,7 @@ header{
   /*Req 6b*/
   /*Set background-image to header.jpg */
   background-image: url("https://senaitdafa.github.io/homework5-2021/images/header.jpg");
-  color: white;
+ 
 
 }
 /*Req 7a*/
