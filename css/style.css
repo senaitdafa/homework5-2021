@@ -73,13 +73,13 @@ nav a:hover, nav a:focus{
   transition: top 1s ease-out;
   z-index: 1;
   position:absolute;
-  bottom: 50px
+  bottom: 50px;
   /*Your code here*/
 }
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
 .skip a:focus{
-  top: 10px
+  top: 10px;
 }
 
 /*Req 4*/
@@ -101,7 +101,7 @@ header{
   background-repeat: no-repeat; /* Parallax effect */
   background-size: cover;       /* Parallax effect */
   color: white;
-  /*height: 400px;  */              /* Parallax effect */
+  height: 400px;              /* Parallax effect */
     
   /*Req 6a*/
   /*Set margin */
