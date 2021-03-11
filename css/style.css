@@ -109,7 +109,7 @@ header{
     
   /*Req 6b*/
   /*Set background-image to header.jpg */
-  background-image: url("images/header.jpg");
+  background-image: url("https://senaitdafa.github.io/homework5-2021/images/header.jpg");
 }
 /*Req 7a*/
 .about, .method, .client, .contacts{
